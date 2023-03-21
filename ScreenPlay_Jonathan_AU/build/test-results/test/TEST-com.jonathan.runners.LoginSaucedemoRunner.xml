@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.jonathan.runners.LoginSaucedemoRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="DESKTOP-VUP1VOA" time="0.0">
+  <properties/>
+  <system-out><![CDATA[Característica: Login Saudemo
+    Yo como usuario de Saudemo
+    Quiero autenticarme
+    Para poder ver los productos
+
+  Escenario: Login Exitoso                                       ?[90m# src/test/resources/features/login_saucedemo.feature:10?[0m
+    ?[32mDado ?[0m?[32mque ?[0m?[32m?[1mJonathan?[0m?[32m se encuentra en la pagina?[0m                  ?[90m# LoginSaucedemoStepDefinition.queElUsuarioSeEncuentraEnLaPagina(String)?[0m
+    ?[32mCuando ?[0m?[32mingresa las credenciales?[0m                              ?[90m# LoginSaucedemoStepDefinition.elUsuarioIngreseSusCredenciales()?[0m
+    ?[32mEntonces ?[0m?[32mel usuario deberia ingresar a la pagina de ?[0m?[32m?[1mProducts?[0m ?[90m# LoginSaucedemoStepDefinition.elUsuarioDeberiaIngresarAlEcommerce(String)?[0m
+
+1 Scenarios (?[32m1 passed?[0m)
+3 Steps (?[32m3 passed?[0m)
+0m10,614s
+
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[96m
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Rocket Chat at https://serenity-bdd.rocket.chat      
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+ Learn Serenity BDD online at http://serenity-dojo.com                               
+-------------------------------------------------------------------------------------
+?[0m
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Login Saudemo
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Login Exitoso
+----------------------------------------------------------------------------?[0m
+]]></system-err>
+</testsuite>
